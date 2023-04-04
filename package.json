@@ -1,7 +1,7 @@
 {
   "name": "react-hook-form-antd",
   "version": "0.0.0",
-  "description": "",
+  "description": "Master your And Design Components with React Hook Form! 用 React Hook Form 拿捏你的 Ant Design 组件！",
   "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
