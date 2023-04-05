@@ -18,8 +18,11 @@
   "license": "MIT",
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
+    "antd": "^5.4.0",
     "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -27,8 +30,17 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
     "simple-git-hooks": "^2.8.1",
     "typescript": "^5.0.3"
+  },
+  "peerDependencies": {
+    "antd": "^5",
+    "react": "^16.8.0 || ^17 || ^18",
+    "react-dom": "^16.8.0 || ^17 || ^18",
+    "react-hook-form": "^7"
   },
   "lint-staged": {
     "*.{js,ts,tsx,css,md}": [
