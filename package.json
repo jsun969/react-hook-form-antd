@@ -4,7 +4,9 @@
   "description": "Master your And Design Components with React Hook Form! 用 React Hook Form 拿捏你的 Ant Design 组件！",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "simple-git-hooks",
+    "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
+    "lint": "eslint \"**/*.{js,ts,tsx}\" --fix"
   },
   "keywords": [
     "react",
@@ -13,5 +15,27 @@
     "ant-design"
   ],
   "author": "Yeyang (Justin) Sun",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "simple-git-hooks": "^2.8.1",
+    "typescript": "^5.0.3"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,css,md}": [
+      "prettier --write"
+    ]
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  }
 }
