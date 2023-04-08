@@ -10,6 +10,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "simple-git-hooks",
+    "prepublishOnly": "pnpm run build",
     "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
     "lint": "eslint \"**/*.{js,ts,tsx}\" --fix",
     "build": "tsup"
