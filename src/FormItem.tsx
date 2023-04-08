@@ -11,7 +11,7 @@ export type FormItemProps<TFieldValues extends FieldValues = FieldValues> = {
   name: FieldPath<TFieldValues>;
 } & Omit<AntdFormItemProps, 'name' | 'shouldUpdate' | 'rules'>;
 
-// TODO: Support `onBlur` `ref` in `useController`
+// TODO: Support `onBlur` `ref`
 export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
   children,
   control,
@@ -20,16 +20,13 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
 }: FormItemProps<TFieldValues>) => {
   const { field, fieldState } = useController({ name, control });
 
-  const handleShouldUpdate: AntdFormItemProps['shouldUpdate'] = (
-    _,
-    nextValues,
-  ) => {
-    field.onChange(nextValues);
-    return true;
+  const handleNormalize: AntdFormItemProps['normalize'] = (value) => {
+    field.onChange(value);
+    return value;
   };
   const rules: AntdFormItemProps['rules'] = [
     {
-      validator: () => {
+      validator: async () => {
         if (fieldState.invalid) {
           throw new Error(fieldState.error?.message);
         }
@@ -42,7 +39,7 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
       {...props}
       name={name}
       initialValue={field.value}
-      shouldUpdate={handleShouldUpdate}
+      normalize={handleNormalize}
       rules={rules}
     >
       {children}
