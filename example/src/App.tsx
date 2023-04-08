@@ -9,8 +9,9 @@ import { FormItem } from '../../src';
 const schema = z.object({
   username: z
     .string()
+    .min(1, { message: 'Required' })
     .max(15, { message: 'Username should be less than 15 characters' }),
-  password: z.string(),
+  password: z.string().min(1, { message: 'Required' }),
   remember: z.boolean(),
 });
 
@@ -25,7 +26,6 @@ const App = () => {
       <Form
         style={{ maxWidth: 600 }}
         onFinish={handleSubmit((data) => {
-          console.log('Submitting...');
           console.log(data);
         })}
       >
@@ -33,7 +33,7 @@ const App = () => {
           <Input />
         </FormItem>
         <FormItem control={control} name="password" label="Password">
-          <Input />
+          <Input.Password />
         </FormItem>
         <FormItem control={control} name="remember" valuePropName="checked">
           <Checkbox>Remember me</Checkbox>
