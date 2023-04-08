@@ -9,7 +9,7 @@ export type FormItemProps<TFieldValues extends FieldValues = FieldValues> = {
   children: React.ReactNode;
   control: Control<TFieldValues>;
   name: FieldPath<TFieldValues>;
-} & Omit<AntdFormItemProps, 'name' | 'shouldUpdate' | 'rules'>;
+} & Omit<AntdFormItemProps, 'name' | 'normalize' | 'rules'>;
 
 // TODO: Support `onBlur` `ref`
 export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
