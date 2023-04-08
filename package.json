@@ -1,8 +1,12 @@
 {
   "name": "react-hook-form-antd",
   "version": "0.0.0",
-  "description": "Master your And Design Components with React Hook Form!",
-  "main": "src/index.ts",
+  "description": "Master your And Design form with React Hook Form!",
+  "sideEffects": false,
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.cjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "simple-git-hooks",
