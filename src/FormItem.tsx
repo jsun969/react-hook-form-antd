@@ -26,6 +26,7 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
   };
   const rules: AntdFormItemProps['rules'] = [
     {
+      // FIXME: Field errors need submit twice before be shown
       validator: async () => {
         if (fieldState.invalid) {
           throw new Error(fieldState.error?.message);
