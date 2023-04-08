@@ -21,6 +21,7 @@
     "react-hook-form",
     "ant-design"
   ],
+  "repository": "git@github.com:jsun969/react-hook-form-antd.git",
   "author": "Yeyang (Justin) Sun",
   "license": "MIT",
   "devDependencies": {
