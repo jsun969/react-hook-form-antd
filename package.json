@@ -1,12 +1,14 @@
 {
   "name": "react-hook-form-antd",
   "version": "0.0.0",
-  "description": "Master your And Design Components with React Hook Form! 用 React Hook Form 拿捏你的 Ant Design 组件！",
+  "description": "Master your And Design Components with React Hook Form!",
   "main": "src/index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "simple-git-hooks",
     "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
-    "lint": "eslint \"**/*.{js,ts,tsx}\" --fix"
+    "lint": "eslint \"**/*.{js,ts,tsx}\" --fix",
+    "build": "tsup"
   },
   "keywords": [
     "react",
@@ -34,6 +36,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.9",
     "simple-git-hooks": "^2.8.1",
+    "tsup": "^6.7.0",
     "typescript": "^5.0.3"
   },
   "peerDependencies": {
