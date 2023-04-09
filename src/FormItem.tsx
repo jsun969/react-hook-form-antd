@@ -12,6 +12,7 @@ export type FormItemProps<TFieldValues extends FieldValues = FieldValues> = {
 } & Omit<AntdFormItemProps, 'name' | 'normalize' | 'rules'>;
 
 // TODO: Support `onBlur` `ref`
+// FIXME: `Touched` does not change in devtool
 export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
   children,
   control,
