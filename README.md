@@ -81,7 +81,7 @@ All you need to do:
 
 > Ant Design `Form.Item` [API](https://ant.design/components/form#formitem)
 
-A component instead of `Form.Item` in antd. It has inherited all props from `Form.Item` except `normalize` and `rules` (If you need rules, please use [react hook form resolver](https://github.com/react-hook-form/resolvers) instead)
+A component instead of `Form.Item` in antd. It has inherited all props from `Form.Item` except `normalize` `rules` `validateStatus` (If you need rules, please use [react hook form resolver](https://github.com/react-hook-form/resolvers) instead)
 
 Added and modified props:
 

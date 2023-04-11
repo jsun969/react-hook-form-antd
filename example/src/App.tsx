@@ -29,7 +29,12 @@ const App = () => {
           console.log(data);
         })}
       >
-        <FormItem control={control} name="username" label="Username">
+        <FormItem
+          control={control}
+          name="username"
+          label="Username"
+          help="default help message"
+        >
           <Input />
         </FormItem>
         <FormItem control={control} name="password" label="Password">

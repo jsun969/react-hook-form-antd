@@ -9,7 +9,7 @@ export type FormItemProps<TFieldValues extends FieldValues = FieldValues> = {
   children: React.ReactNode;
   control: Control<TFieldValues>;
   name: FieldPath<TFieldValues>;
-} & Omit<AntdFormItemProps, 'name' | 'normalize' | 'rules'>;
+} & Omit<AntdFormItemProps, 'name' | 'normalize' | 'rules' | 'validateStatus'>;
 
 // TODO: Support `onBlur` `ref`
 // FIXME: `Touched` does not change in devtool
@@ -17,6 +17,7 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
   children,
   control,
   name,
+  help,
   ...props
 }: FormItemProps<TFieldValues>) => {
   const { field, fieldState } = useController({ name, control });
@@ -25,16 +26,6 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
     field.onChange(value);
     return value;
   };
-  const rules: AntdFormItemProps['rules'] = [
-    {
-      // FIXME: Field errors need submit twice before be shown
-      validator: async () => {
-        if (fieldState.invalid) {
-          throw new Error(fieldState.error?.message);
-        }
-      },
-    },
-  ];
 
   return (
     <AntdForm.Item
@@ -42,7 +33,8 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
       name={name}
       initialValue={field.value}
       normalize={handleNormalize}
-      rules={rules}
+      validateStatus={fieldState.invalid ? 'error' : undefined}
+      help={fieldState.error?.message ?? help}
     >
       {children}
     </AntdForm.Item>
