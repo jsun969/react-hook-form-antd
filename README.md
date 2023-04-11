@@ -29,6 +29,9 @@ npm install react-hook-form-antd
 
 You may have an original antd form like below
 
+<details>
+<summary>Show code</summary>
+
 ```tsx
 <Form onFinish={onFinish}>
   <Form.Item
@@ -59,6 +62,8 @@ You may have an original antd form like below
 </Form>
 ```
 
+</details>
+
 Check the [EXAMPLE](https://codesandbox.io/s/react-hook-form-antd-example-6s0i3z?file=/src/App.tsx) for this form after using `react-hook-form-antd`!
 
 All you need to do:
@@ -70,6 +75,17 @@ All you need to do:
    - Use `handleSubmit` in `onFinish`
 3. Enjoy! 🎉
 
-## ⚠️ Notice
+## 🕹 API
 
-`rules` `normalize` are removed in `FormItem`
+### 🔗 `FormItem`
+
+> Ant Design `Form.Item` [API](https://ant.design/components/form#formitem)
+
+A component instead of `Form.Item` in antd. It has inherited all props from `Form.Item` except `normalize` and `rules` (If you need rules, please use [react hook form resolver](https://github.com/react-hook-form/resolvers) instead)
+
+Added and modified props:
+
+| Prop      | Type    | Description                                                                       |
+| --------- | ------- | --------------------------------------------------------------------------------- |
+| `control` | Control | [control object](https://react-hook-form.com/api/useform/control/) from `useForm` |
+| `name`    | string  | form field name                                                                   |
