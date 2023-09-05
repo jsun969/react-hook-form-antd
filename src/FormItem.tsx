@@ -1,5 +1,6 @@
 import { Form as AntdForm } from 'antd';
 import type React from 'react';
+import { useEffect } from 'react';
 import type { Control, FieldPath, FieldValues } from 'react-hook-form';
 import { useController } from 'react-hook-form';
 
@@ -21,11 +22,22 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
   ...props
 }: FormItemProps<TFieldValues>) => {
   const { field, fieldState } = useController({ name, control });
+  const form = AntdForm.useFormInstance();
 
   const handleNormalize: AntdFormItemProps['normalize'] = (value) => {
     field.onChange(value);
     return value;
   };
+
+  useEffect(() => {
+    if (!form) return;
+
+    const prevFieldValue = form.getFieldValue(name);
+    const latestFieldValue = field.value;
+
+    if (prevFieldValue !== latestFieldValue)
+      form.setFieldValue(name, field.value);
+  }, [form, name, field.value]);
 
   return (
     <AntdForm.Item
