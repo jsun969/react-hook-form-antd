@@ -2,7 +2,7 @@ import { Form as AntdForm } from 'antd';
 import type React from 'react';
 import { useEffect } from 'react';
 import type { Control, FieldPath, FieldValues } from 'react-hook-form';
-import { useController, useFormContext } from 'react-hook-form';
+import { useController } from 'react-hook-form';
 
 type AntdFormItemProps = React.ComponentProps<typeof AntdForm.Item>;
 
