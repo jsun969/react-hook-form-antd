@@ -1,6 +1,6 @@
 import { DevTool } from '@hookform/devtools';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { Button, Checkbox, Form, Input } from 'antd';
+import { Button, Checkbox, Form, Input, Space } from 'antd';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
 
@@ -16,10 +16,18 @@ const schema = z.object({
 });
 
 const App = () => {
-  const { control, handleSubmit } = useForm({
+  const { control, handleSubmit, reset } = useForm({
     defaultValues: { username: 'jsun969', password: '', remember: true },
     resolver: zodResolver(schema),
   });
+
+  const resetForm = () => {
+    reset({
+      username: '',
+      password: '',
+      remember: false,
+    });
+  };
 
   return (
     <>
@@ -44,9 +52,12 @@ const App = () => {
           <Checkbox>Remember me</Checkbox>
         </FormItem>
         <Form.Item>
-          <Button type="primary" htmlType="submit">
-            Submit
-          </Button>
+          <Space>
+            <Button type="primary" htmlType="submit">
+              Submit
+            </Button>
+            <Button onClick={resetForm}>Reset</Button>
+          </Space>
         </Form.Item>
       </Form>
       <DevTool control={control} />

@@ -21,10 +21,10 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
   help,
   ...props
 }: FormItemProps<TFieldValues>) => {
-  const form = AntdForm.useFormInstance();
   const { field, fieldState } = useController(
-    control ? { name } : { name, control },
+    control ? { name, control } : { name },
   );
+  const form = AntdForm.useFormInstance();
 
   const handleNormalize: AntdFormItemProps['normalize'] = (value) => {
     field.onChange(value);
