@@ -40,8 +40,8 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
               isValidElement(child) &&
               cloneElement(child, {
                 ...field,
-                ...(valuePropName === 'checked' && {
-                  checked: field.value,
+                ...(valuePropName && {
+                  [valuePropName]: field.value,
                 }),
               }),
           )}
