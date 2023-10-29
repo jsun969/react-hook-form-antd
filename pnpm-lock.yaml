@@ -54,8 +54,8 @@ devDependencies:
     specifier: ^7.43.9
     version: 7.47.0(react@18.2.0)
   simple-git-hooks:
-    specifier: ^2.8.1
-    version: 2.8.1
+    specifier: ^2.9.0
+    version: 2.9.0
   tsup:
     specifier: ^6.7.0
     version: 6.7.0(typescript@5.0.3)
@@ -3259,8 +3259,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /simple-git-hooks@2.8.1:
-    resolution: {integrity: sha512-DYpcVR1AGtSfFUNzlBdHrQGPsOhuuEJ/FkmPOOlFysP60AHd3nsEpkGq/QEOdtUyT1Qhk7w9oLmFoMG+75BDog==}
+  /simple-git-hooks@2.9.0:
+    resolution: {integrity: sha512-waSQ5paUQtyGC0ZxlHmcMmD9I1rRXauikBwX31bX58l5vTOhCEcBC5Bi+ZDkPXTjDnZAF8TbCqKBY+9+sVPScw==}
     hasBin: true
     requiresBuild: true
     dev: true
