@@ -52,7 +52,7 @@ devDependencies:
     version: 18.2.0(react@18.2.0)
   react-hook-form:
     specifier: ^7.43.9
-    version: 7.43.9(react@18.2.0)
+    version: 7.47.0(react@18.2.0)
   simple-git-hooks:
     specifier: ^2.8.1
     version: 2.8.1
@@ -3091,8 +3091,8 @@ packages:
       scheduler: 0.23.0
     dev: true
 
-  /react-hook-form@7.43.9(react@18.2.0):
-    resolution: {integrity: sha512-AUDN3Pz2NSeoxQ7Hs6OhQhDr6gtF9YRuutGDwPQqhSUAHJSgGl2VeY3qN19MG0SucpjgDiuMJ4iC5T5uB+eaNQ==}
+  /react-hook-form@7.47.0(react@18.2.0):
+    resolution: {integrity: sha512-F/TroLjTICipmHeFlMrLtNLceO2xr1jU3CyiNla5zdwsGUGu2UOxxR4UyJgLlhMwLW/Wzp4cpJ7CPfgJIeKdSg==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18
