@@ -43,7 +43,7 @@
     "react-hook-form": "^7.43.9",
     "simple-git-hooks": "^2.8.1",
     "tsup": "^6.7.0",
-    "typescript": "^5.0.3"
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "antd": "^5",
