@@ -16,7 +16,7 @@ const schema = z.object({
 });
 
 const App = () => {
-  const { control, handleSubmit } = useForm({
+  const { control, handleSubmit, reset } = useForm({
     defaultValues: { username: 'jsun969', password: '', remember: true },
     resolver: zodResolver(schema),
   });
@@ -46,6 +46,9 @@ const App = () => {
         <Form.Item>
           <Button type="primary" htmlType="submit">
             Submit
+          </Button>
+          <Button type="primary" onClick={() => reset()}>
+            Reset
           </Button>
         </Form.Item>
       </Form>
