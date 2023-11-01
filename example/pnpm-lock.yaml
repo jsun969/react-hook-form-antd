@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@hookform/resolvers':
-    specifier: ^3.0.1
-    version: 3.0.1(react-hook-form@7.47.0)
+    specifier: ^3.3.2
+    version: 3.3.2(react-hook-form@7.47.0)
   antd:
     specifier: ^5.10.3
     version: 5.10.3(react-dom@18.2.0)(react@18.2.0)
@@ -765,8 +765,8 @@ packages:
       - '@types/react'
     dev: true
 
-  /@hookform/resolvers@3.0.1(react-hook-form@7.47.0):
-    resolution: {integrity: sha512-n5oOt0cLw9mQNW3/k9zWaPsNWQcc0k6Jpc7XUrg2Q/AqqsHp3IVa1juqHCxczXI6uXHBa69ILc4pdtsRGyuzsw==}
+  /@hookform/resolvers@3.3.2(react-hook-form@7.47.0):
+    resolution: {integrity: sha512-Tw+GGPnBp+5DOsSg4ek3LCPgkBOuOgS5DsDV7qsWNH9LZc433kgsWICjlsh2J9p04H2K66hsXPPb9qn9ILdUtA==}
     peerDependencies:
       react-hook-form: ^7.0.0
     dependencies:
