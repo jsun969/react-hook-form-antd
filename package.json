@@ -1,6 +1,6 @@
 {
   "name": "react-hook-form-antd",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Master your And Design form with React Hook Form!",
   "sideEffects": false,
   "type": "module",
