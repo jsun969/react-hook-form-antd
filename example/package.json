@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@hookform/resolvers": "^3.0.1",
+    "@hookform/resolvers": "^3.3.2",
     "antd": "^5.10.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
