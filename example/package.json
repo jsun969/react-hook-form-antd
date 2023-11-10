@@ -10,17 +10,17 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
-    "antd": "^5.10.3",
+    "antd": "^5.11.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.48.2",
-    "zod": "^3.22.3"
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@hookform/devtools": "^4.3.1",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^3.1.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.1.1",
     "typescript": "^5.2.2",
     "vite": "^4.5.0"
   }
