@@ -45,7 +45,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.48.2",
     "simple-git-hooks": "^2.9.0",
-    "tsup": "^6.7.0",
+    "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
