@@ -16,7 +16,7 @@ const schema = z.object({
 });
 
 const App = () => {
-  const { control, handleSubmit, reset } = useForm({
+  const { control, watch, handleSubmit, reset } = useForm({
     defaultValues: { username: 'jsun969', password: '', remember: true },
     resolver: zodResolver(schema),
   });
@@ -37,7 +37,7 @@ const App = () => {
         >
           <Input />
         </FormItem>
-        <FormItem control={control} name="password" label="Password">
+        <FormItem control={control} name="password" label="Password" disabled={!watch('username')}>
           <Input.Password />
         </FormItem>
         <FormItem control={control} name="remember" valuePropName="checked">
