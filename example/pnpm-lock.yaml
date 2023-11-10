@@ -21,8 +21,8 @@ dependencies:
     specifier: ^7.48.2
     version: 7.48.2(react@18.2.0)
   zod:
-    specifier: ^3.22.3
-    version: 3.22.3
+    specifier: ^3.22.4
+    version: 3.22.4
 
 devDependencies:
   '@hookform/devtools':
@@ -2087,6 +2087,6 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /zod@3.22.3:
-    resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
+  /zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     dev: false
