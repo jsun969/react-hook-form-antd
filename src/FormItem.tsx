@@ -10,6 +10,7 @@ export type FormItemProps<TFieldValues extends FieldValues = FieldValues> = {
   children: React.ReactNode;
   control: Control<TFieldValues>;
   name: FieldPath<TFieldValues>;
+  disabled?: boolean;
 } & Omit<AntdFormItemProps, 'name' | 'rules' | 'validateStatus'>;
 
 // TODO: Support `onBlur` `ref`
@@ -17,11 +18,12 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
   children,
   control,
   name,
+  disabled,
   help,
   valuePropName,
   ...props
 }: FormItemProps<TFieldValues>) => {
-  const { field, fieldState } = useController({ name, control });
+  const { field, fieldState } = useController({ name, control, disabled });
 
   return (
     <AntdForm.Item
