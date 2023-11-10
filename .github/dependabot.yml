@@ -8,10 +8,18 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     versioning-strategy: "increase"
+    groups:
+      deps:
+        patterns:
+          - "*"
     schedule:
       interval: "weekly"
   - package-ecosystem: "npm"
     directory: "/example"
     versioning-strategy: "increase"
+    groups:
+      deps:
+        patterns:
+          - "*"
     schedule:
       interval: "weekly"
