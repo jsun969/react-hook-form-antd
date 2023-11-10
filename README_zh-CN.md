@@ -83,7 +83,7 @@ npm install react-hook-form-antd
 
 > Ant Design `Form.Item` [API](https://ant.design/components/form#formitem)
 
-一个用于替代 antd 中的 `Form.Item` 的组件。它已经继承了 `Form.Item` 中除了 `normalize` `rules` `validateStatus` 之外的所有参数（如果你需要 rules，请使用 [react hook form resolver](https://github.com/react-hook-form/resolvers) 替代）
+一个用于替代 antd 中的 `Form.Item` 的组件。它已经继承了 `Form.Item` 中除了 `rules` `validateStatus` 之外的所有参数（如果你需要 rules，请使用 [react hook form resolver](https://github.com/react-hook-form/resolvers) 替代）
 
 新增和修改的参数:
 
