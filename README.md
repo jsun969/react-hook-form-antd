@@ -7,6 +7,7 @@ Master your And Design form with React Hook Form!
 [![version](https://img.shields.io/npm/v/react-hook-form-antd?style=for-the-badge)](https://www.npmjs.com/package/react-hook-form-antd)
 [![license](https://img.shields.io/npm/l/react-hook-form-antd?style=for-the-badge)](https://github.com/jsun969/react-hook-form-antd/blob/main/LICENSE)
 [![size](https://img.shields.io/bundlephobia/minzip/react-hook-form-antd?style=for-the-badge)](https://bundlephobia.com/result?p=react-hook-form-antd)
+[![downloads](https://img.shields.io/npm/dw/react-hook-form-antd?style=for-the-badge)](https://www.npmjs.com/package/react-hook-form-antd)
 
 English | [简体中文](./README_zh-CN.md)
 
