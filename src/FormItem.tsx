@@ -28,6 +28,9 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
   return (
     <AntdForm.Item
       {...props}
+      //@ts-expect-error Ant Design form item name type safe is not necessary here
+      name={name}
+      initialValue={field.value}
       validateStatus={fieldState.invalid ? 'error' : undefined}
       help={fieldState.error?.message ?? help}
     >
