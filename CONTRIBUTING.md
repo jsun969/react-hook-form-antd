@@ -24,12 +24,10 @@ git checkout -b your-meaningful-branch-name
 pnpm install
 ```
 
-4. Test your code in example.
+4. Test your code.
 
 ```bash
-cd example
-pnpm install
-pnpm run dev
+pnpm run test
 ```
 
 5. Ensure your code lints without errors.

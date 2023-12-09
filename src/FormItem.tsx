@@ -13,7 +13,7 @@ export type FormItemProps<TFieldValues extends FieldValues = FieldValues> = {
   disabled?: boolean;
 } & Omit<AntdFormItemProps, 'name' | 'rules' | 'validateStatus'>;
 
-// TODO: Support `onBlur` `ref`
+// TODO: Support `onBlur` `ref` `reset`
 export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
   children,
   control,
@@ -28,6 +28,9 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
   return (
     <AntdForm.Item
       {...props}
+      //@ts-expect-error Ant Design form item name type safe is not necessary here
+      name={name}
+      initialValue={field.value}
       validateStatus={fieldState.invalid ? 'error' : undefined}
       help={fieldState.error?.message ?? help}
     >
