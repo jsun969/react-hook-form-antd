@@ -51,7 +51,6 @@ describe('Form', () => {
   });
   // TODO: `reset` not working
   // it('should reset when click reset button', async () => {
-  //   vitestPreview.debug();
   //   await userEvent.type(screen.getByLabelText('Password'), 'password');
   //   const passwordInputBeforeReset = screen.getByLabelText(
   //     'Password',
