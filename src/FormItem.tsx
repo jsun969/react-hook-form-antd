@@ -40,6 +40,15 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
           isValidElement(child) &&
           cloneElement(child, {
             ...field,
+            //@ts-expect-error onChange type safe is not necessary here
+            onChange: (...params) => {
+              child.props.onChange && child.props.onChange(...params);
+              field.onChange(...params);
+            },
+            onBlur: () => {
+              child.props.onBlur && child.props.onBlur();
+              field.onBlur();
+            },
             ...(valuePropName && {
               [valuePropName]: field.value,
             }),
