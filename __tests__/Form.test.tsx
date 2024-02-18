@@ -49,15 +49,14 @@ describe('Form', () => {
       remember: true,
     });
   });
-  // TODO: `reset` not working
-  // it('should reset when click reset button', async () => {
-  //   await userEvent.type(screen.getByLabelText('Password'), 'password');
-  //   const passwordInputBeforeReset = screen.getByLabelText(
-  //     'Password',
-  //   ) as HTMLInputElement;
-  //   expect(passwordInputBeforeReset.value).toBe('password');
-  //   await userEvent.click(screen.getByText('Reset'));
-  //   const passwordInput = screen.getByLabelText('Password') as HTMLInputElement;
-  //   expect(passwordInput.value).toBe('');
-  // });
+  it('should reset when click reset button', async () => {
+    await userEvent.type(screen.getByLabelText('Password'), 'password');
+    const passwordInputBeforeReset = screen.getByLabelText(
+      'Password',
+    ) as HTMLInputElement;
+    expect(passwordInputBeforeReset.value).toBe('password');
+    await userEvent.click(screen.getByText('Reset'));
+    const passwordInput = screen.getByLabelText('Password') as HTMLInputElement;
+    expect(passwordInput.value).toBe('');
+  });
 });
