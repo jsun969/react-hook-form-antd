@@ -37,31 +37,31 @@ npm install react-hook-form-antd
 
 ```tsx
 <Form onFinish={onFinish}>
-  <Form.Item
-    label="Username"
-    name="username"
-    rules={[
-      { required: true, message: 'Required' },
-      { max: 15, message: 'Username should be less than 15 characters' },
-    ]}
-  >
-    <Input />
-  </Form.Item>
-  <Form.Item
-    label="Password"
-    name="password"
-    rules={[{ required: true, message: 'Required' }]}
-  >
-    <Input.Password />
-  </Form.Item>
-  <Form.Item name="remember" valuePropName="checked">
-    <Checkbox>Remember me</Checkbox>
-  </Form.Item>
-  <Form.Item>
-    <Button type="primary" htmlType="submit">
-      Submit
-    </Button>
-  </Form.Item>
+	<Form.Item
+		label="Username"
+		name="username"
+		rules={[
+			{ required: true, message: 'Required' },
+			{ max: 15, message: 'Username should be less than 15 characters' },
+		]}
+	>
+		<Input />
+	</Form.Item>
+	<Form.Item
+		label="Password"
+		name="password"
+		rules={[{ required: true, message: 'Required' }]}
+	>
+		<Input.Password />
+	</Form.Item>
+	<Form.Item name="remember" valuePropName="checked">
+		<Checkbox>Remember me</Checkbox>
+	</Form.Item>
+	<Form.Item>
+		<Button type="primary" htmlType="submit">
+			Submit
+		</Button>
+	</Form.Item>
 </Form>
 ```
 
