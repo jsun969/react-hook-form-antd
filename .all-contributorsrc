@@ -37,6 +37,16 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "avegatolber",
+      "name": "avegatolber",
+      "avatar_url": "https://avatars.githubusercontent.com/u/159487029?v=4",
+      "profile": "https://github.com/avegatolber",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
