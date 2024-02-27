@@ -27,6 +27,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "dmuharemagic",
+      "name": "Dino Muharemagić",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2150642?v=4",
+      "profile": "https://github.com/dmuharemagic",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
