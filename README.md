@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📋🐜 React Hook Form Antd
+# 📋 React Hook Form Antd 🐜
 
 Master your And Design form with React Hook Form!
 
@@ -92,3 +92,25 @@ Added and modified props:
 | --------- | ------- | --------------------------------------------------------------------------------- |
 | `control` | Control | [control object](https://react-hook-form.com/api/useform/control/) from `useForm` |
 | `name`    | string  | form field name                                                                   |
+
+## 👥 Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://jsun.lol"><img src="https://avatars.githubusercontent.com/u/29330847?v=4?s=100" width="100px;" alt="Yeyang (Justin) Sun"/><br /><sub><b>Yeyang (Justin) Sun</b></sub></a><br /><a href="https://github.com/jsun969/react-hook-form-antd/commits?author=jsun969" title="Code">💻</a> <a href="#ideas-jsun969" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-jsun969" title="Maintenance">🚧</a> <a href="https://github.com/jsun969/react-hook-form-antd/commits?author=jsun969" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

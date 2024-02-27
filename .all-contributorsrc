@@ -1,0 +1,29 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "jsun969",
+      "name": "Yeyang (Justin) Sun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29330847?v=4",
+      "profile": "http://jsun.lol",
+      "contributions": [
+        "code",
+        "ideas",
+        "maintenance",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "react-hook-form-antd",
+  "projectOwner": "jsun969"
+}
