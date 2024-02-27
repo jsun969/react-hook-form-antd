@@ -104,6 +104,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://jsun.lol"><img src="https://avatars.githubusercontent.com/u/29330847?v=4?s=100" width="100px;" alt="Yeyang (Justin) Sun"/><br /><sub><b>Yeyang (Justin) Sun</b></sub></a><br /><a href="https://github.com/jsun969/react-hook-form-antd/commits?author=jsun969" title="Code">💻</a> <a href="#ideas-jsun969" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-jsun969" title="Maintenance">🚧</a> <a href="https://github.com/jsun969/react-hook-form-antd/commits?author=jsun969" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jakub-szewczyk"><img src="https://avatars.githubusercontent.com/u/134627903?v=4?s=100" width="100px;" alt="Jakub Szewczyk"/><br /><sub><b>Jakub Szewczyk</b></sub></a><br /><a href="https://github.com/jsun969/react-hook-form-antd/commits?author=jakub-szewczyk" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
