@@ -92,14 +92,3 @@ Added and modified props:
 | --------- | ------- | --------------------------------------------------------------------------------- |
 | `control` | Control | [control object](https://react-hook-form.com/api/useform/control/) from `useForm` |
 | `name`    | string  | form field name                                                                   |
-
-## 👥 Contributors
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
