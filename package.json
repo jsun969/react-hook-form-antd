@@ -1,75 +1,76 @@
 {
-  "name": "react-hook-form-antd",
-  "version": "1.0.1",
-  "description": "Master your And Design form with React Hook Form!",
-  "sideEffects": false,
-  "type": "module",
-  "source": "src/index.ts",
-  "files": [
-    "dist"
-  ],
-  "main": "dist/index.js",
-  "module": "dist/index.cjs",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "prepare": "simple-git-hooks",
-    "prepublishOnly": "pnpm run build",
-    "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
-    "lint": "eslint \"**/*.{js,ts,tsx}\" --fix",
-    "build": "tsup",
-    "test": "vitest",
-    "test:preview": "vitest-preview"
-  },
-  "keywords": [
-    "react",
-    "form",
-    "react-hook-form",
-    "ant-design"
-  ],
-  "repository": "git@github.com:jsun969/react-hook-form-antd.git",
-  "author": "Yeyang (Justin) Sun",
-  "license": "MIT",
-  "devDependencies": {
-    "@hookform/resolvers": "^3.3.4",
-    "@testing-library/jest-dom": "^6.4.2",
-    "@testing-library/react": "^14.2.1",
-    "@testing-library/user-event": "^14.5.2",
-    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-    "@types/react": "^18.2.61",
-    "@types/react-dom": "^18.2.19",
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
-    "@typescript-eslint/parser": "^7.1.0",
-    "antd": "^5.14.2",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.1.3",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "jsdom": "^24.0.0",
-    "lint-staged": "^15.2.2",
-    "prettier": "^3.2.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hook-form": "^7.51.0",
-    "simple-git-hooks": "^2.9.0",
-    "tsup": "^8.0.2",
-    "typescript": "^5.3.3",
-    "vitest": "^1.3.1",
-    "vitest-preview": "^0.0.1",
-    "zod": "^3.22.4"
-  },
-  "peerDependencies": {
-    "antd": "^5",
-    "react": "^16.8.0 || ^17 || ^18",
-    "react-dom": "^16.8.0 || ^17 || ^18",
-    "react-hook-form": "^7"
-  },
-  "lint-staged": {
-    "*.{js,ts,tsx,css,md}": [
-      "prettier --write"
-    ]
-  },
-  "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
-  }
+	"name": "react-hook-form-antd",
+	"version": "1.0.1",
+	"description": "Master your And Design form with React Hook Form!",
+	"type": "module",
+	"main": "dist/index.js",
+	"exports": "./dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist",
+		"LICENSE",
+		"README.md"
+	],
+	"sideEffects": false,
+	"scripts": {
+		"prepare": "simple-git-hooks",
+		"prepublishOnly": "pnpm run build",
+		"format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
+		"lint": "eslint \"**/*.{js,ts,tsx}\" --fix",
+		"build": "tsup",
+		"test": "vitest",
+		"test:preview": "vitest-preview"
+	},
+	"keywords": [
+		"react",
+		"form",
+		"react-hook-form",
+		"ant-design"
+	],
+	"repository": "github:jsun969/react-hook-form-antd",
+	"author": "Yeyang (Justin) Sun",
+	"license": "MIT",
+	"devDependencies": {
+		"@hookform/resolvers": "^3.3.4",
+		"@testing-library/jest-dom": "^6.4.2",
+		"@testing-library/react": "^14.2.1",
+		"@testing-library/user-event": "^14.5.2",
+		"@trivago/prettier-plugin-sort-imports": "^4.3.0",
+		"@types/react": "^18.2.61",
+		"@types/react-dom": "^18.2.19",
+		"@typescript-eslint/eslint-plugin": "^7.1.0",
+		"@typescript-eslint/parser": "^7.1.0",
+		"antd": "^5.14.2",
+		"eslint": "^8.57.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"eslint-plugin-react": "^7.32.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"jsdom": "^24.0.0",
+		"lint-staged": "^15.2.2",
+		"prettier": "^3.2.5",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-hook-form": "^7.51.0",
+		"simple-git-hooks": "^2.9.0",
+		"tsup": "^8.0.2",
+		"typescript": "^5.3.3",
+		"vitest": "^1.3.1",
+		"vitest-preview": "^0.0.1",
+		"zod": "^3.22.4"
+	},
+	"peerDependencies": {
+		"antd": "^5",
+		"react": "^16.8.0 || ^17 || ^18",
+		"react-dom": "^16.8.0 || ^17 || ^18",
+		"react-hook-form": "^7"
+	},
+	"lint-staged": {
+		"*.{js,ts,tsx,css,md}": [
+			"prettier --write"
+		]
+	},
+	"simple-git-hooks": {
+		"pre-commit": "npx lint-staged"
+	}
 }
