@@ -2,7 +2,7 @@ import { Form as AntdForm } from 'antd';
 import { useEffect } from 'react';
 import { Children, cloneElement, isValidElement } from 'react';
 import type { Control, FieldPath, FieldValues } from 'react-hook-form';
-import { useController } from 'react-hook-form';
+import { Controller } from 'react-hook-form';
 
 type AntdFormItemProps = React.ComponentProps<typeof AntdForm.Item>;
 
@@ -23,7 +23,7 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
 	valuePropName,
 	...props
 }: FormItemProps<TFieldValues>) => {
-	const { field, fieldState } = useController({ name, control, disabled });
+	const { field, fieldState } = Controller({ name, control, disabled });
 	const form = AntdForm.useFormInstance();
 
 	useEffect(() => {
