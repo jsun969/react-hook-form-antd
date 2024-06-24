@@ -17,6 +17,7 @@
 		"prepublishOnly": "pnpm run build",
 		"format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
 		"lint": "eslint \"**/*.{js,ts,tsx}\" --fix",
+		"dev": "tsup --watch",
 		"build": "tsup",
 		"test": "vitest",
 		"test:preview": "vitest-preview"

@@ -1,6 +1,5 @@
 import { Form as AntdForm } from 'antd';
-import { useEffect } from 'react';
-import { Children, cloneElement, isValidElement } from 'react';
+import { Children, cloneElement, isValidElement, useEffect } from 'react';
 import type { Control, FieldPath, FieldValues } from 'react-hook-form';
 import { useController } from 'react-hook-form';
 
@@ -11,6 +10,7 @@ export type FormItemProps<TFieldValues extends FieldValues = FieldValues> = {
 	control: Control<TFieldValues>;
 	name: FieldPath<TFieldValues>;
 	disabled?: boolean;
+	overrideFieldOnChange?: (...values: any[]) => void;
 } & Omit<AntdFormItemProps, 'name' | 'rules' | 'validateStatus'>;
 
 // TODO: Support `onBlur` `ref` `reset`
@@ -21,6 +21,7 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
 	disabled,
 	help,
 	valuePropName,
+	overrideFieldOnChange,
 	...props
 }: FormItemProps<TFieldValues>) => {
 	const { field, fieldState } = useController({ name, control, disabled });
@@ -48,7 +49,9 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
 						//@ts-expect-error onChange type safe is not necessary here
 						onChange: (...params) => {
 							child.props.onChange && child.props.onChange(...params);
-							field.onChange(...params);
+							overrideFieldOnChange
+								? overrideFieldOnChange(...params)
+								: field.onChange(...params);
 						},
 						onBlur: () => {
 							child.props.onBlur && child.props.onBlur();
