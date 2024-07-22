@@ -47,6 +47,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "ahmedrowaihi",
+      "name": "Ahmed Rowaihi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67356781?v=4",
+      "profile": "http://dev.ahmedrowaihi.lol",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
