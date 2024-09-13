@@ -117,6 +117,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/yorman2401"><img src="https://avatars.githubusercontent.com/u/66335054?v=4?s=100" width="100px;" alt="Yorman Rodriguez"/><br /><sub><b>Yorman Rodriguez</b></sub></a><br /><a href="https://github.com/jsun969/react-hook-form-antd/issues?q=author%3Ayorman2401" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://snndmnsz.com"><img src="https://avatars.githubusercontent.com/u/42818330?v=4?s=100" width="100px;" alt="Sinan"/><br /><sub><b>Sinan</b></sub></a><br /><a href="https://github.com/jsun969/react-hook-form-antd/commits?author=snndmnsz" title="Documentation">📖</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nagamejun"><img src="https://avatars.githubusercontent.com/u/18486040?v=4?s=100" width="100px;" alt="nagamejun"/><br /><sub><b>nagamejun</b></sub></a><br /><a href="https://github.com/jsun969/react-hook-form-antd/issues?q=author%3Anagamejun" title="Bug reports">🐛</a> <a href="https://github.com/jsun969/react-hook-form-antd/commits?author=nagamejun" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 

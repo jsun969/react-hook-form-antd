@@ -74,6 +74,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "nagamejun",
+      "name": "nagamejun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18486040?v=4",
+      "profile": "https://github.com/nagamejun",
+      "contributions": [
+        "bug",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
