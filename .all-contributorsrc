@@ -65,6 +65,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "snndmnsz",
+      "name": "Sinan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42818330?v=4",
+      "profile": "http://snndmnsz.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
