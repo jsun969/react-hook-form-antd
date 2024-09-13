@@ -93,6 +93,12 @@ Added and modified props:
 | `control` | Control | [control object](https://react-hook-form.com/api/useform/control/) from `useForm` |
 | `name`    | string  | form field name                                                                   |
 
+## 🚧 Known Issues
+
+#### TypeError: elm.focus is not a function
+
+When using an upload component, set `shouldFocusError: false` in your `useForm` configuration. This will prevent React Hook Form from trying to focus on the error, effectively resolving the issue.
+
 ## 👥 Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
