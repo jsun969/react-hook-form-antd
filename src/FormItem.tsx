@@ -29,7 +29,7 @@ export const FormItem = <TFieldValues extends FieldValues = FieldValues>({
 
 	useEffect(() => {
 		form.setFieldValue(name, field.value);
-	}, [field.value]);
+	}, [field.value, form, name]);
 
 	return (
 		<AntdForm.Item
