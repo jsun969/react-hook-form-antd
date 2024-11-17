@@ -2,7 +2,7 @@
 
 # 📋 React Hook Form Antd 🐜
 
-Master your And Design form with React Hook Form!
+Master your Ant Design form with React Hook Form!
 
 [![version](https://img.shields.io/npm/v/react-hook-form-antd?style=for-the-badge)](https://www.npmjs.com/package/react-hook-form-antd)
 [![license](https://img.shields.io/npm/l/react-hook-form-antd?style=for-the-badge)](https://github.com/jsun969/react-hook-form-antd/blob/main/LICENSE)
