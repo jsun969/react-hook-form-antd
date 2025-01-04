@@ -84,6 +84,15 @@
         "bug",
         "code"
       ]
+    },
+    {
+      "login": "Anav11",
+      "name": "Andrey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43610000?v=4",
+      "profile": "https://github.com/Anav11",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
