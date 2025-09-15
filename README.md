@@ -120,6 +120,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nagamejun"><img src="https://avatars.githubusercontent.com/u/18486040?v=4?s=100" width="100px;" alt="nagamejun"/><br /><sub><b>nagamejun</b></sub></a><br /><a href="https://github.com/jsun969/react-hook-form-antd/issues?q=author%3Anagamejun" title="Bug reports">🐛</a> <a href="https://github.com/jsun969/react-hook-form-antd/commits?author=nagamejun" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Anav11"><img src="https://avatars.githubusercontent.com/u/43610000?v=4?s=100" width="100px;" alt="Andrey"/><br /><sub><b>Andrey</b></sub></a><br /><a href="https://github.com/jsun969/react-hook-form-antd/issues?q=author%3AAnav11" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ray-overjet"><img src="https://avatars.githubusercontent.com/u/181789459?v=4?s=100" width="100px;" alt="ray-overjet"/><br /><sub><b>ray-overjet</b></sub></a><br /><a href="https://github.com/jsun969/react-hook-form-antd/commits?author=ray-overjet" title="Code">💻</a> <a href="https://github.com/jsun969/react-hook-form-antd/issues?q=author%3Aray-overjet" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
