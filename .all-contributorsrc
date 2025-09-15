@@ -1,104 +1,86 @@
 {
-  "files": [
-    "README.md"
-  ],
-  "imageSize": 100,
-  "commit": false,
-  "commitType": "docs",
-  "commitConvention": "angular",
-  "contributors": [
-    {
-      "login": "jsun969",
-      "name": "Yeyang (Justin) Sun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29330847?v=4",
-      "profile": "http://jsun.lol",
-      "contributions": [
-        "code",
-        "ideas",
-        "maintenance",
-        "doc"
-      ]
-    },
-    {
-      "login": "jakub-szewczyk",
-      "name": "Jakub Szewczyk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/134627903?v=4",
-      "profile": "https://github.com/jakub-szewczyk",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "dmuharemagic",
-      "name": "Dino Muharemagić",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2150642?v=4",
-      "profile": "https://github.com/dmuharemagic",
-      "contributions": [
-        "code",
-        "bug"
-      ]
-    },
-    {
-      "login": "avegatolber",
-      "name": "avegatolber",
-      "avatar_url": "https://avatars.githubusercontent.com/u/159487029?v=4",
-      "profile": "https://github.com/avegatolber",
-      "contributions": [
-        "code",
-        "bug"
-      ]
-    },
-    {
-      "login": "ahmedrowaihi",
-      "name": "Ahmed Rowaihi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67356781?v=4",
-      "profile": "http://dev.ahmedrowaihi.lol",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "yorman2401",
-      "name": "Yorman Rodriguez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/66335054?v=4",
-      "profile": "https://github.com/yorman2401",
-      "contributions": [
-        "bug"
-      ]
-    },
-    {
-      "login": "snndmnsz",
-      "name": "Sinan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42818330?v=4",
-      "profile": "http://snndmnsz.com",
-      "contributions": [
-        "doc"
-      ]
-    },
-    {
-      "login": "nagamejun",
-      "name": "nagamejun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18486040?v=4",
-      "profile": "https://github.com/nagamejun",
-      "contributions": [
-        "bug",
-        "code"
-      ]
-    },
-    {
-      "login": "Anav11",
-      "name": "Andrey",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43610000?v=4",
-      "profile": "https://github.com/Anav11",
-      "contributions": [
-        "bug"
-      ]
-    }
-  ],
-  "contributorsPerLine": 7,
-  "skipCi": true,
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "projectName": "react-hook-form-antd",
-  "projectOwner": "jsun969"
+	"files": ["README.md"],
+	"imageSize": 100,
+	"commit": false,
+	"commitType": "docs",
+	"commitConvention": "angular",
+	"contributors": [
+		{
+			"login": "jsun969",
+			"name": "Yeyang (Justin) Sun",
+			"avatar_url": "https://avatars.githubusercontent.com/u/29330847?v=4",
+			"profile": "http://jsun.lol",
+			"contributions": ["code", "ideas", "maintenance", "doc"]
+		},
+		{
+			"login": "jakub-szewczyk",
+			"name": "Jakub Szewczyk",
+			"avatar_url": "https://avatars.githubusercontent.com/u/134627903?v=4",
+			"profile": "https://github.com/jakub-szewczyk",
+			"contributions": ["code"]
+		},
+		{
+			"login": "dmuharemagic",
+			"name": "Dino Muharemagić",
+			"avatar_url": "https://avatars.githubusercontent.com/u/2150642?v=4",
+			"profile": "https://github.com/dmuharemagic",
+			"contributions": ["code", "bug"]
+		},
+		{
+			"login": "avegatolber",
+			"name": "avegatolber",
+			"avatar_url": "https://avatars.githubusercontent.com/u/159487029?v=4",
+			"profile": "https://github.com/avegatolber",
+			"contributions": ["code", "bug"]
+		},
+		{
+			"login": "ahmedrowaihi",
+			"name": "Ahmed Rowaihi",
+			"avatar_url": "https://avatars.githubusercontent.com/u/67356781?v=4",
+			"profile": "http://dev.ahmedrowaihi.lol",
+			"contributions": ["code"]
+		},
+		{
+			"login": "yorman2401",
+			"name": "Yorman Rodriguez",
+			"avatar_url": "https://avatars.githubusercontent.com/u/66335054?v=4",
+			"profile": "https://github.com/yorman2401",
+			"contributions": ["bug"]
+		},
+		{
+			"login": "snndmnsz",
+			"name": "Sinan",
+			"avatar_url": "https://avatars.githubusercontent.com/u/42818330?v=4",
+			"profile": "http://snndmnsz.com",
+			"contributions": ["doc"]
+		},
+		{
+			"login": "nagamejun",
+			"name": "nagamejun",
+			"avatar_url": "https://avatars.githubusercontent.com/u/18486040?v=4",
+			"profile": "https://github.com/nagamejun",
+			"contributions": ["bug", "code"]
+		},
+		{
+			"login": "Anav11",
+			"name": "Andrey",
+			"avatar_url": "https://avatars.githubusercontent.com/u/43610000?v=4",
+			"profile": "https://github.com/Anav11",
+			"contributions": ["bug"]
+		},
+		{
+			"login": "ray-overjet",
+			"name": "ray-overjet",
+			"avatar_url": "https://avatars.githubusercontent.com/u/181789459?v=4",
+			"profile": "https://github.com/ray-overjet",
+			"contributions": ["infra"]
+		}
+	],
+	"contributorsPerLine": 7,
+	"skipCi": true,
+	"repoType": "github",
+	"repoHost": "https://github.com",
+	"projectName": "react-hook-form-antd",
+	"projectOwner": "jsun969"
 }
+
