@@ -93,6 +93,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "ray-overjet",
+      "name": "ray-overjet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/181789459?v=4",
+      "profile": "https://github.com/ray-overjet",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
