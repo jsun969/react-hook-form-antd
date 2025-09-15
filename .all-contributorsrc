@@ -101,7 +101,8 @@
       "profile": "https://github.com/ray-overjet",
       "contributions": [
         "code",
-        "bug"
+        "bug",
+        "infra"
       ]
     }
   ],
